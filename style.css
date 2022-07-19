@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url(./Fonts/Fraunces/static/Fraunces_120pt/Fraunces_120pt-Black.ttf);
+}
+
+body{
+  max-height: 1000px;
+  max-width: 1440px;
+  background: hsl(30, 38%, 92%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.wrapper{
+  width: 900px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card{
+  height: 450px;
+  width: 600px;
+  margin: 250px 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-left{
+  height: 100%;
+  width: 300px;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px; 
+}
+
+.content-right{
+  height: 100%;
+  width: 300px;
+  background: white;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+span{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 25px;
+  top: 30px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500, 700;
+  color: hsl(228, 12%, 48%);
+}
+
+h1{
+  position: relative;
+  top: 20px;
+  left: 30px;
+  width: 70%;
+  font-family: 'Fraunces';
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.description{
+  width: 80%;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.price{
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  top: 25px;
+  left: 35px;
+  font-family: 'Fraunces';
+  font-size: xx-large;
+  font-weight: 800;
+  color: hsl(158, 36%, 37%);
+}
+
+.discount{
+  width: 50%;
+  position: relative;
+  left: 170px;
+  top: -15px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500, 700;
+  color: hsl(228, 12%, 48%);
+}
+
+.button{
+  display: inline-flex;
+  position: relative;
+  left: 25px;
+  top: 15px;
+  height: 12%;
+  width: 80%;
+  border: none;
+  border-style: none;
+  border-radius: 12px;
+  background: hsl(158, 36%, 37%);
+}
+
+.button-text{
+  height: 100%;
+  position: relative;
+  top: 18px;
+  left: 60px;
+  width: 50%;
+  font-family:'Montserrat';
+  font-size: 15px;
+  font-weight: 500, 700;
+  color: white;
+}
+
+.button-icon{
+  position: relative;
+  left: 60px;
+  top: 18px;
+}
+
+.button-icon img{
+  transform: scaleX(-1);
+}
